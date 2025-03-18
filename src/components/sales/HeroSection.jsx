@@ -100,7 +100,7 @@ const HeroSection = memo(({ scrollYProgress, y1 }) => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-xl text-blue-100/80 mb-10 max-w-xl"
             >
-              Descubra como <span className="font-semibold text-white">multiplique seus resultados</span> através de experiências digitais que hipnotizam visitantes e os transformam em clientes fiéis.
+              Descubra como <span className="font-semibold text-white">multiplicar seus resultados</span> através de experiências digitais que hipnotizam visitantes e os transformam em clientes fiéis.
             </motion.p>
 
             <motion.div
