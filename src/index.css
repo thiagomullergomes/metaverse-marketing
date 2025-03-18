@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply bg-black text-white scroll-smooth;
+  }
+  
+  body {
+    @apply antialiased;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: black;
+    color: white;
+    overflow-x: hidden;
+  }
+
+  /* Ajuste para evitar corte de letras com descendentes */
+  h1, h2, h3, h4, h5, h6, p, span, a, button {
+    line-height: 1.3;
+    padding-bottom: 0.15em; /* Espaço extra para descendentes como 'g', 'j', 'p', 'q', 'y' */
+  }
+
+  /* Correção adicional para textos em gradientes que podem ter problemas de renderização */
+  .text-gradient {
+    padding-bottom: 0.2em;
+    display: inline-block;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+
+  /* Utilitários adicionais para o componente Sales */
+  .perspective-1000 {
+    perspective: 1000px;
+  }
+
+  @keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  .animate-gradient {
+    background-size: 200% 200%;
+    animation: gradientAnimation 3s ease infinite;
+  }
+
+  .bg-grid-blue-900\/\[0\.03\] {
+    --grid-color: rgba(30, 58, 138, 0.03);
+    background-image: linear-gradient(to right, var(--grid-color) 1px, transparent 1px),
+                     linear-gradient(to bottom, var(--grid-color) 1px, transparent 1px);
+  }
+
+  /* Background gradient for radial effects */
+  .bg-gradient-radial {
+    background: radial-gradient(circle at center, var(--tw-gradient-from) 0%, var(--tw-gradient-to) 70%);
+  }
+}
