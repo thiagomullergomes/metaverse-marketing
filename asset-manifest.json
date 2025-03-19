@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/metaverse-marketing/static/css/main.08041e90.css",
-    "main.js": "/metaverse-marketing/static/js/main.16139762.js",
-    "static/js/453.99fb0d1d.chunk.js": "/metaverse-marketing/static/js/453.99fb0d1d.chunk.js",
+    "main.js": "/metaverse-marketing/static/js/main.8c86a2aa.js",
+    "static/js/453.a4a12b43.chunk.js": "/metaverse-marketing/static/js/453.a4a12b43.chunk.js",
     "index.html": "/metaverse-marketing/index.html",
     "main.08041e90.css.map": "/metaverse-marketing/static/css/main.08041e90.css.map",
-    "main.16139762.js.map": "/metaverse-marketing/static/js/main.16139762.js.map",
-    "453.99fb0d1d.chunk.js.map": "/metaverse-marketing/static/js/453.99fb0d1d.chunk.js.map"
+    "main.8c86a2aa.js.map": "/metaverse-marketing/static/js/main.8c86a2aa.js.map",
+    "453.a4a12b43.chunk.js.map": "/metaverse-marketing/static/js/453.a4a12b43.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.08041e90.css",
-    "static/js/main.16139762.js"
+    "static/js/main.8c86a2aa.js"
   ]
 }
